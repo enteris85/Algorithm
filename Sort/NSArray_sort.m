@@ -6,22 +6,10 @@
 //  Copyright © 2016년 12corp. All rights reserved.
 //
 /**
-* 문제URL : https://www.acmicpc.net/problem/2908
-* 입력
-* 734 893
-*
-* 출력
-* 437
 *
 */
 #import <Foundation/Foundation.h>
-int reverse (int a) {
-    int three = a/100;
-    int two = (a/10)%10;
-    int one = a%10;
-    
-    return one*100+two*10+three;
-}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         /**
